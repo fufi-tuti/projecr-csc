@@ -1,1 +1,1 @@
-# projecr-csc
+# project-csc
