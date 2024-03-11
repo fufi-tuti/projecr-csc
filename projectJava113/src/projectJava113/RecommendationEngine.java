@@ -1,5 +1,5 @@
 package projectJava113;
 
-public class RecommendationEngine {
+public class abstract RecommendationEngine {
 
 }

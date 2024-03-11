@@ -1,5 +1,5 @@
 package projectJava113;
 
-public class GenreBasedRecommendation {
+public class GenreBasedRecommendation extends RecommendationEngine{
 
 }

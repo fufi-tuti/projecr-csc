@@ -1,5 +1,5 @@
 package projectJava113;
 
-public class RatingBased {
+public class RatingBased extends RecommendationEngine{
 
 }
