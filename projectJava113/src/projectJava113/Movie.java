@@ -45,6 +45,11 @@ public class Movie {
 	
 		return title;
 	}
+	
+	public double getRating() { //mashael added a rating getter
+		
+		return rating;
+	}
 
 
 
