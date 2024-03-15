@@ -3,7 +3,7 @@ package projectJava113;
 public class MovieDataBase {
 
 	private int numOfMovies;
-	public Movie [] movies;
+	private Movie [] movies;
 	
 	public boolean addMovie(Movie M)
 	{
@@ -42,5 +42,14 @@ public class MovieDataBase {
 		
 return null;
 	}
+	
+	public Movie [] getMovieList() {  //getters are useful for the engine class
+		return movies;
+	}
+	
+	public int getNumOfMovies() {
+		return numOfMovies;
+	}
+	
 	
 }
