@@ -4,6 +4,7 @@ public class MovieDataBase {
 
 	private int numOfMovies;
 	private Movie [] movies;
+	private User user;
 	
 	public boolean addMovie(Movie M)
 	{
@@ -16,7 +17,7 @@ public class MovieDataBase {
 		
 	}
 	
-	public boolean removeMovie(Movie M)
+	public boolean removeMovie(Movie M) //remove with shift 
 	{
 		for (int i=0; i<numOfMovies;i++)
 		if (movies[i].equals(M))
@@ -49,6 +50,14 @@ return null;
 	
 	public int getNumOfMovies() {
 		return numOfMovies;
+	}
+	
+	public void setUser(User u) {
+		user = u;
+	}
+	
+	public void getUser(User u ) {
+		return user;
 	}
 	
 	
